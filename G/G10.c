@@ -1,5 +1,10 @@
 #include<stdio.h>
 #include<math.h>
+ 
+// 2차 방정식의 근을 구하는 프로그램을 작성하라. 
+// 즉, 2차 방정식 ax^2 + bx + c = 0 를
+// 만족하는 x를 구하라. 
+// 허근일 경우에는 ‘Imaginary root’를 출력하라.
 
 int main() {
 	double a, b, c, d, x;

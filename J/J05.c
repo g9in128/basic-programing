@@ -3,6 +3,8 @@
 
 typedef unsigned long long USlong;
 
+//가로 세로 최대 
+
 int main() {
 	int n,m,idxd,idxp;
 	USlong day=0,product=0;

@@ -2,6 +2,8 @@
 #include<stdlib.h>
 #include<limits.h>
 
+// Áß¾Ó°ª 
+
 int* merge(int* a,int sizea,int* b,int sizeb) {
 	int* arr = (int*) malloc(sizeof(int) *(sizea+sizeb));
 	for (int i = 0,j=0;i+j < sizea + sizeb;) {

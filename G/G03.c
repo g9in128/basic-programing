@@ -1,6 +1,10 @@
 #include<stdio.h>
 #define END '#'
 
+// #을 만날때까지 입력을 읽고
+// "ei"가 나타난 횟수를 출력하는
+// 프로그램을 작성하라. 
+
 int main() {
 	int e = 0,ei = 0;
 	char ch = getchar();

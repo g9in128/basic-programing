@@ -1,5 +1,13 @@
 #include<stdio.h>
 
+// ---A
+// --ABA
+// -ABCBA
+// ABCDCBA
+
+// 하나의 문자를 입력으로 받아서 그 문자가 맨 아래 가운데 오게하는 
+// 피라미드 모양을 위와 같이 출력하는 프로그램을 작성하라.
+
 int main() {
 	char stop;
 	scanf("%c", &stop);

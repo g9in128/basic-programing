@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<malloc.h>
 
+//에라토스 테네스의 체 
+
 int main() {
 	int num, * arr;
 	scanf("%d", &num);

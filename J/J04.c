@@ -3,6 +3,8 @@
 
 typedef unsigned long long USlong;
 
+//ÆÄ½ºÄ®ÀÇ »ï°¢Çü 
+
 int main() {
 	USlong n,k;
 	scanf("%lld %lld",&n,&k);

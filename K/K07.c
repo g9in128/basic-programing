@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+// 바코드 검사 
+
 int main() {
 	int cnt = 0,p = 3,d;
 	for (int i = 0;i<12;i++) {

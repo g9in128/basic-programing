@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<limits.h>
 
+// 가장 큰 값 
+
 int max(int* arr,int size) {
 	int max = INT_MIN;
 	for (int i = 0; i < size; i++) {

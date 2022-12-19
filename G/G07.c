@@ -2,6 +2,9 @@
 #include<math.h>
 #include<stdlib.h>
 
+// N이 주어질 때, N보다 작거나 같은 소수의 수를 
+// 출력하는 프로그램을 작성하라.
+
 int main() {
 	int inn;
 	scanf("%d",&inn);

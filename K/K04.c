@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+// 정렬 후 k1,k2,k3번째 수의 합 
+
 int compare(const void* a, const void* b) {
 	int* ina = (int*)a,* inb = (int*)b;
 	return *ina > *inb ? 1 : (*ina == *inb ? 0 : -1);

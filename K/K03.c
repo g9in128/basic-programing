@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+// Àý»çÆò±Õ º¸Á¤Æò±Õ
+
 int compare(const void* a, const void* b) {
 	int* ina = (int*)a,* inb = (int*)b;
 	return *ina > *inb ? -1 : (*ina == *inb ? 0 : 1);

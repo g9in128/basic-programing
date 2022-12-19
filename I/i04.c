@@ -1,5 +1,8 @@
 #include<stdio.h>
 
+// 입력을 받아 알파벳의 순서를 출력하는
+// 프로그램을 작성하라. 
+
 int  getAlphaNum(char ch) {
 	if (ch >= 'a' && ch <= 'z') {
 		return ch - 'a' + 1;

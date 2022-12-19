@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+// 중복 제거 
+
 int compare(const void* a, const void* b) {
 	int* ina = (int*)a,* inb = (int*)b;
 	return *ina > *inb ? 1 : (*ina == *inb ? 0 : -1);

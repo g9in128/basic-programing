@@ -1,5 +1,9 @@
 #include<stdio.h>
 
+// 두 수의 조화평균을 구하는 함수를 작성해서
+// 테스트하라.
+// 조화평균 : (1/x + 1/y) /2 의 역
+ 
 double havg(double x, double y);
 
 int main() {

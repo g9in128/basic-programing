@@ -1,5 +1,9 @@
 #include<stdio.h>
 
+// 0을 입력할때 까지 정수들을 읽어서
+// 홀수의 개수와 평균,
+// 짝수의 개수와 평균을 각각 출력하는
+// 프로그램을 작성하라. 
 int main() {
 	int inn, odd, even, sumodd, sumeven;
 	double avgodd, avgeven;

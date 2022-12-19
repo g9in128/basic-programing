@@ -1,5 +1,8 @@
 #include<stdio.h>
 
+// 세 수를 입력받아 
+// 정렬하는 함수를 작성하고 테스트하라.
+
 void swap(double* a,double* b) {
 	double tmp = *a;
 	*a = *b;

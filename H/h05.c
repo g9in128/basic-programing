@@ -1,5 +1,8 @@
 #include<stdio.h>
 
+// 두 복소수를 읽고, 두 복소수의 
+// 곱셈과 나눗셈 값을 구하는 프로그램을 작성하라. 
+
 int main() {
 	int a, b, c, d, pr = 0, pi = 0;
 	double dr, di,m,div;

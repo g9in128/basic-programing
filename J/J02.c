@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<limits.h>
 
+// 두번째 작은 수 
+
 int main() {
 	int num,min = INT_MAX,min2 = INT_MAX - 1,data;
 	scanf("%d", &num);

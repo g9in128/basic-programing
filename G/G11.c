@@ -1,5 +1,8 @@
 #include<stdio.h>
 
+//n과 k를 읽고 
+//nCk를 구하는 프로그램을 작성하라.
+
 int main() {
 	long long n, k, c = 1;
 	scanf("%lld%lld", &n, &k);

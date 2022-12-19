@@ -1,6 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 
+// Çà·Ä ÇÕ
+
 int** inputMatrix(int row,int col) {
 	int** arr = (int**) malloc(sizeof(int*) * row);
 	for (int i = 0; i < row;i++) {

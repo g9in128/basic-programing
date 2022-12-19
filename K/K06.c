@@ -6,6 +6,8 @@
 #define NAND 4
 #define XOR 5
 
+// 논리 회로 
+
 int gate(int type,int a,int b) {
 	switch (type) {
 	case 1:
